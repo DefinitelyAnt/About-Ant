@@ -1,0 +1,55 @@
+
+/* Root colors */
+
+:root{
+    --primary-color: #b5bef9;
+    --secondary-color: #afa7b5;
+    --background-color: #fedbd5;
+    --cursor-main-color: #1a12c3;
+    --cursor-animate-color: #fedbd5;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+/* Trailer */
+
+*{
+    cursor: none;
+}
+
+#trailer{
+    background-image: url("../media/blue_shuriken.png");
+    background-size: cover;
+    position: fixed;
+    z-index: 1;
+    height: 25px;
+    width: 25px;
+    rotate: 0deg;
+}
+
+/* #trailer{
+    --shape: 0 50%, 30.5% 69.5%, 50% 100%, 69.5% 69.5%, 100% 50%, 69.5% 30.5%, 50% 0,    30.5% 30.5%, 0 50%; */
+    /* Hole shape : x1 y1,    x2 y2,    x3 y3,     x4 y2,   x5 y1,     x4 y4,   x3 y5,   x2 y4, x1 y1*/
+    /* --hole: calc(0% + var(--border)) 50%, 40% 60%,       50% calc(100% - var(--border)), 60% 60%,      calc(100% - var(--border)) 50%, 60% 40%,    50% calc(0% + var(--border)), 40% 40%, calc(0% + var(--border)) 50% ;
+    --border: 2px;
+    aspect-ratio: 1;
+    clip-path: polygon( */
+        /* Outer shape */
+        /* var(--shape), */
+        /* Inner points */
+        /* var(--hole)
+    );
+    position: fixed;
+    z-index: 1;
+    height: 25px;
+    width: 25px;
+    background-color: var(--cursor-main-color);
+} */
+
+
+.main-nav{
+    background-color: #1a12c3;
+}
+
